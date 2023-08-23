@@ -19,4 +19,12 @@ public class SolutionTest {
 
         Assert.assertEquals(expected, actual);
     }
+    @Test
+    public void reorganizeStringTest3() {
+        String s = "a";
+        String expected = "a";
+        String actual = new Solution().reorganizeString(s);
+
+        Assert.assertEquals(expected, actual);
+    }
 }
